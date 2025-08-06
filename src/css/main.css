@@ -1,0 +1,93 @@
+.main{
+    padding: 50px 0px;
+    background-color: #DFDFDF;
+}
+
+.main__container-title{
+    width: 100%;
+}
+
+.main__title-bg{
+    padding: 10px 10px;
+    background-color: #060503;
+    color: white;
+}
+
+.main__title{
+    font-family: 'League Spartan', sans-serif;
+    color: #060503;
+    font-weight: 700;
+    text-align: center;
+    font-size: 65px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+.main__text{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+}
+
+.main__container-text{
+    padding: 0px 0px 0px 30px;
+    width: 75%;
+    font-size: 18px;
+}
+
+.main__text-bu{
+    font-weight: 711;
+    text-decoration: underline;
+}
+
+.main__container-text-image{
+    display: flex;
+    flex-direction: row;
+}
+
+.main__image{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-70%);
+    width: 70px;
+    height: auto;
+}
+
+.main__container-card{
+    margin: 10px 25px;
+    padding: 15px;
+    border-radius: 25px;
+    background: #020202;
+    background: linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+    background: -webkit-linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+    background: -moz-linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+}
+
+.main__card-text{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 705;
+}
+
+.main__card-bi{
+    font-weight: 709;
+    font-style: italic;
+}
+
+.main__text-i{
+    font-style: italic;
+}
+
+.main__container-text{
+    padding: 15px 40px;
+    width: 100%;
+}
+
+.main__text-description{
+    text-align: center;
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 18px;
+    font-weight: 712;
+    font-style: normal;
+    color: black;
+}
