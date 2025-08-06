@@ -1,0 +1,76 @@
+.whyPNL__container{
+    background-color: #000000;
+    padding: 50px 25px;
+}
+
+.whyPNL__container-title{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.whyPNL__title{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.whyPNL__text{
+    font-family: 'Cooper Hewitt', sans-serif;
+    color: white;
+    font-weight: 705;
+    font-size: 18px;
+}
+
+.whyPNL__text-bi{
+    font-weight: 709;
+    font-style: italic;
+}
+
+.whyPNL__text-i{
+    font-style: italic;
+}
+
+.whyPNL__text-bu{
+    font-weight: 709;
+    text-decoration: underline;
+}
+
+.whyPNL__container-card{
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 15px 20px;
+    background-color: #DFDFDF;
+}
+
+.whyPNL__card-title{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 709;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.whyPNL__card-item{
+    font-family: 'Cooper Hewitt', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 705;
+}
+
+
+.whyPNL__container-conclusion{
+    border: 2px solid #000000;
+    padding: 5px 10px 0px 10px;
+}
+
+.whyPNL__conclusion{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    font-size: 16px;
+}
+
+.whyPNL__conclusion-red-text{
+    color: red;
+    font-weight: 709;
+}

@@ -1,0 +1,31 @@
+.pnlOrigins__container{
+    background-color: #F9F9F9;
+    padding: 50px 20px;;
+}
+
+.pnlOrigins__title{
+    font-family: 'League Spartan', sans-serif;
+    color: #060503;
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.6);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pnlOrigins__text{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 18px;
+    font-weight: 705;
+    text-align: justify;
+}
+
+.pnlOrigins__text-b{
+    font-weight: 709;
+}
+
+.pnlOrigins__image{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,45 @@
+.whyEnroll__container{
+    background-color: #000000;
+    padding: 50px 0px;
+}
+
+.whyEnroll__title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.whyEnroll__container-cards{
+    padding: 20px 25px;
+}
+
+.whyEnroll__card{
+    margin-bottom: 25px;
+    border-radius: 25px;
+    padding: 15px 15px 2px 15px;
+    background-color: #DFDFDF;
+}
+
+.whyEnroll__card-text{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.whyEnroll__card-text-b{
+    font-weight: 709;
+}
+
+.whyEnroll__container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyEnroll__img{
+    width: 70%;
+    height: auto;
+}
