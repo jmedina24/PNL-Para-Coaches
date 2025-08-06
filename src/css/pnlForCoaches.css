@@ -1,0 +1,45 @@
+.PNLForCoaches__container{
+    background-color: #000000;
+    padding: 40px 0px;
+}
+
+.PNLForCoaches__container-title{
+    border-radius: 25px;
+    margin: 5px 20px;
+    padding: 15px 10px 2px 10px;
+    background-color: #DFDFDF;
+}
+
+.PNLForCoaches__title{
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+.PNLForCoaches__subtitle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 15px 45px;
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 711;
+    color: white;
+}
+
+.PNLForCoaches__container-text{
+    padding: 0px 35px;
+}
+
+.PNLForCoaches__text{
+    font-family: 'Cooper Hewitt', sans-serif;
+    color: white;
+    text-align: justify;
+    font-weight: 705;
+    margin-bottom: 25px;
+}
+
+.PNLForCoaches__text-b{
+    font-weight: 709;
+}
