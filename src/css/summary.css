@@ -1,0 +1,121 @@
+.summary__container-points{
+    padding: 40px 25px;
+    background-color: #F9F9F9;
+}
+
+.summary__text{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 15px;
+    font-weight: 705;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.summary__total-value{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 15px;
+    font-weight: 709;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.summary__price{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 15px;
+    font-weight: 705;
+    margin-bottom: 10px;
+}
+
+.summary__card-container{
+    background-color: #54EA8D;
+    padding: 10px 20px;
+}
+
+.summary__card-text{
+    padding-top: 15px;
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 13px;
+    font-weight: 709;
+    text-align: center;
+}
+
+.summary__price-explanatin-title{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 19px;
+    font-weight: 709;
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.summary__price-explanation-description{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 15px;
+    font-weight: 705;
+    text-align: justify;
+    margin: 40px 30px;
+}
+
+.summary__container-warning-card{
+    border-radius: 25px;
+    background: #020202;
+    padding: 20px;
+    margin-bottom: 40px;
+    background: linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+    background: -webkit-linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+    background: -moz-linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+}
+
+.summary__container-warning-card-title{
+    padding: 20px 0px;
+}
+
+.summary__warning-card-title{
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.bi-exclamation-triangle{
+    margin: 0px 5px;
+    font-size: 20px;
+    color: #FBCF06;
+}
+
+.summary__warning-card-subtitle{
+    font-size: 19px;
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 709;
+    text-align: center;
+    color: white;
+}
+
+.summary__warning-list-item{
+    font-size: 15px;
+    font-family: 'Cooper Hewitt', sans-serif;
+    text-align: justify;
+    font-weight: 705;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.summary__msg{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 15px;
+    font-weight: 705;
+    text-align: center;
+    margin: 40px 30px;
+}
+
+.summary__msg-b{
+    font-weight: 711;
+}
+
+.summary__container-image{
+    margin: 0px 25px;
+}
+.summary__image{
+    width: 100%;
+    height: auto;
+}

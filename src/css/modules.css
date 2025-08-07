@@ -1,0 +1,60 @@
+.modules{
+    padding: 50px 25px;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.modules__title{
+    font-family: 'League Spartan', sans-serif;
+    color: #060503;
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.6);
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.main__card{
+    margin-bottom: 35px;
+    border-radius: 25px;
+    padding: 20px 10px 5px 10px;
+    background: #020202;
+    background: linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+    background: -webkit-linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+    background: -moz-linear-gradient(320deg,#020202 0%, #5e5e5e 100%);
+}
+
+.main__container-card{
+    background-color: #F9F9F9;
+}
+
+.main__card-title{
+    color: white;
+    font-size: 19px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.main__card-description{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    text-align: justify;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.main__card-list-item{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    text-align: justify;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.main__card-list{
+    list-style-type: square;
+    padding-left: 15px;
+    margin-left: 0;
+}

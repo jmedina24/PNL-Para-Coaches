@@ -1,0 +1,108 @@
+.whatIncludes__container{
+    background-color: #000000;
+    padding: 50px 20px;
+}
+
+.whatIncludes__title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.whatIncludes__valued{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.whatIncludes__container-content{
+    margin: 10px;
+    padding: 25px 10px 0px 10px;
+}
+
+.whatIncludes__content-title{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 711;
+    font-size: 17px;
+    color: white;
+}
+
+.whatIncludes__content-description{
+    margin-bottom: 30px;
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+}
+
+.whatIncludes__more-Info-title{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.whatIncludes__description{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.whatIncludes__moreInfo-card-container{
+    padding: 0px 20px;
+}
+
+.whatIncludes__moreInfo-card{
+    margin-bottom: 40px;
+    border-radius: 25px;
+    padding: 15px 10px;
+    background-color: #E3E3E3;
+}
+
+.whatIncludes__moreInfo-bonusNumber{
+    margin-bottom: 40px;
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 709;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+.whatIncludes__moreInfo-bonusName{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 709;
+    font-size: 20px;
+    color: black;
+}
+
+.whatIncludes__moreInfo-bonusValue{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.whatIncludes__moreInfo-bonusDescription{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.whatIncludes__moreInfo-image{
+    width: 100%;
+}
