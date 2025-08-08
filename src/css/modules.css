@@ -58,3 +58,15 @@
     padding-left: 15px;
     margin-left: 0;
 }
+
+@media (min-width: 360px){
+    .modules__title{
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 375px){
+    .modules__title{
+        font-size: 50px;
+    }
+}

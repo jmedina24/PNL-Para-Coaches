@@ -66,7 +66,10 @@
     margin-bottom: 40px;
     border-radius: 25px;
     padding: 15px 10px;
-    background-color: #E3E3E3;
+    background: #dbdbdb;
+    background: linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -webkit-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -moz-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
 }
 
 .whatIncludes__moreInfo-bonusNumber{
@@ -105,4 +108,18 @@
 
 .whatIncludes__moreInfo-image{
     width: 100%;
+}
+
+@media (min-width: 360px){
+    .whatIncludes__more-Info-title{
+        padding: 0px 5px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 375px){
+    .whatIncludes__more-Info-title{
+        padding: 0px 13px;
+        font-size: 22px;
+    }
 }

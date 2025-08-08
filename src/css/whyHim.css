@@ -1,6 +1,9 @@
 .whyHim{
     padding: 50px 25px;
-    background-color: #F9F9F9;
+    background: #dbdbdb;
+    background: linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -webkit-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -moz-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
 }
 
 .whyHim__title{
@@ -27,4 +30,10 @@
     width: 100%;
     height: auto;
     margin-bottom: 35px;
+}
+
+@media (min-width: 375px){
+    .whyHim__title{
+        font-size: 39px;
+    }
 }

@@ -1,6 +1,9 @@
 .summary__container-points{
     padding: 40px 25px;
-    background-color: #F9F9F9;
+    background: #dbdbdb;
+    background: linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -webkit-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -moz-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
 }
 
 .summary__text{
@@ -123,4 +126,10 @@
 .summary__container-btn{
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+@media (min-width: 375px) {
+    .summary__card-text{
+        font-size: 15px;
+    }
 }

@@ -12,12 +12,7 @@
     margin-bottom: 35px;
 }
 
-.accordion-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .accordion-button{
     font-family: 'Cooper Hewitt', sans-serif;
@@ -46,7 +41,7 @@
 
 .accordion-body-list{
     margin-left: 0px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .accordion-body-item{
@@ -65,8 +60,15 @@
     margin-top: 15px;
 }
 
-.bi{
-    color: white;
+.bi-instagram,
+.bi-whatsapp{
     font-size: 25px;
     margin-left: 18px;
+    color: white;
+}
+
+@media (min-width: 375px) {
+    .faqs__title{
+        font-size: 50px;
+    }
 }

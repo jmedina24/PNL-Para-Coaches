@@ -1,7 +1,10 @@
 .workingTogether__container{
     padding: 50px 25px;
     width: 100%;
-    background-color: #F9F9F9;
+    background: #dbdbdb;
+    background: linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -webkit-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -moz-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
 }
 
 .workingTogether__title{
@@ -12,4 +15,10 @@
     font-size: 35px;
     text-shadow: 2px 2px 1px rgba(0,0,0,0.6);
     margin-top: 20px;
+}
+
+@media (min-width: 375px) {
+    .workingTogether__title{
+        font-size: 45px;
+    }
 }

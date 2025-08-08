@@ -1,5 +1,8 @@
 .pnlOrigins__container{
-    background-color: #F9F9F9;
+    background: #dbdbdb;
+    background: linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -webkit-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
+    background: -moz-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
     padding: 50px 20px;;
 }
 
@@ -28,4 +31,10 @@
 .pnlOrigins__image{
     width: 100%;
     height: auto;
+}
+
+@media (min-width: 375px) {
+    .pnlOrigins__title{
+        font-size: 44px;
+    }
 }

@@ -1,10 +1,38 @@
 .main{
     padding: 100px 0px;
     background-color: #DFDFDF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.main__coaches {
+  position: relative;
+  display: inline-block;
+}
+
+.main__s-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.main__image-float {
+  position: absolute;
+  bottom: -30px;   /* ajustá según lo que necesites */
+  right: -20px;    /* ajustá para mover más o menos a la derecha */
+  width: 70px;     /* tamaño de la imagen, adaptalo */
+  height: auto;
+  z-index: 1;
+}
+
 
 .main__container-title{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .main__title-bg{
@@ -25,12 +53,12 @@
 .main__text{
     font-family: 'Cooper Hewitt', sans-serif;
     font-weight: 705;
+    font-size: 18px;
 }
 
 .main__container-text{
     padding: 0px 0px 0px 30px;
-    width: 75%;
-    font-size: 18px;
+    width: 100%;
 }
 
 .main__text-bu{
@@ -87,17 +115,26 @@
     text-align: center;
     font-family: 'Cooper Hewitt', sans-serif;
     font-size: 18px;
-    font-weight: 712;
+    font-weight: 711;
     font-style: normal;
     color: black;
 }
 
+.main__container-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (min-width: 375px){
     .main__title{
-        font-size: 77px;
+        font-size: 75px;
     }
+}
 
-    .main__image{
-        transform: translateY(-80%);
+@media (min-width: 425px){
+    .main__title{
+        font-size: 85px;
     }
 }
