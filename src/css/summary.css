@@ -119,3 +119,8 @@
     width: 100%;
     height: auto;
 }
+
+.summary__container-btn{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

@@ -9,10 +9,14 @@ import Modules from '../components/Modules';
 import WhatIncludes from '../components/WhatIncludes';
 import Summary from '../components/Summary';
 import Satisfaction from '../components/Satisfaction';
+import WhyHim from '../components/WhyHim';
+import FAQs from '../components/FAQs';
+import Countdown from '../components/Countdown';
 
 const Home = () => {
   return (
     <>
+      <Countdown />
       <Main />
       <WhyPNL />
       <PNLOrigins />
@@ -23,6 +27,8 @@ const Home = () => {
       <WhatIncludes />
       <Summary />
       <Satisfaction />
+      <WhyHim />
+      <FAQs />
     </>
   )
 }

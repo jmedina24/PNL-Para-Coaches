@@ -1,5 +1,5 @@
 .main{
-    padding: 50px 0px;
+    padding: 100px 0px;
     background-color: #DFDFDF;
 }
 
@@ -92,3 +92,12 @@
     color: black;
 }
 
+@media (min-width: 375px){
+    .main__title{
+        font-size: 77px;
+    }
+
+    .main__image{
+        transform: translateY(-80%);
+    }
+}

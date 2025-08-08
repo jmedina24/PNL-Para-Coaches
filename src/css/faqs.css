@@ -1,0 +1,72 @@
+.faqs{
+    background-color: #000000;
+    padding: 50px 30px;
+}
+
+.faqs__title{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.accordion-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-button{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-size: 15px;
+    font-weight: 709;
+    padding: 15px;
+    align-items: center;
+    
+}
+
+.accordion-body{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 705;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.inside-chile{
+    font-family: 'Cooper Hewitt', sans-serif;
+    font-weight: 709;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.accordion-body-list{
+    margin-left: 0px;
+    padding-left: 10px;
+}
+
+.accordion-body-item{
+    margin-bottom: 15px;
+}
+
+.faqs__container-menu{
+    margin-bottom: 40px;
+}
+
+.faqs__container-social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.bi{
+    color: white;
+    font-size: 25px;
+    margin-left: 18px;
+}
