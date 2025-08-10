@@ -1,9 +1,5 @@
 .summary__container-points{
     padding: 40px 25px;
-    background: #dbdbdb;
-    background: linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
-    background: -webkit-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
-    background: -moz-linear-gradient(90deg,#dbdbdb 0%, #dfdfdf 80%);
 }
 
 .summary__text{
@@ -31,13 +27,13 @@
 
 .summary__card-container{
     background-color: #54EA8D;
-    padding: 10px 20px;
+    padding: 10px 5px;
 }
 
 .summary__card-text{
-    padding-top: 15px;
+    padding-top: 25px;
     font-family: 'Cooper Hewitt', sans-serif;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 709;
     text-align: center;
 }
@@ -128,8 +124,49 @@
     margin-bottom: 40px;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 768px){
+    .summary__text,
+    .summary__total-value,
+    .summary__price,
+    .summary__price-explanation-description,
+    .summary__warning-list-item,
+    .summary__msg,
+    .summary__msg-b{
+        font-size: 20px;
+    }
+
+    .summary__price-explanatin-title,
+    .bi-exclamation-triangle{
+        font-size: 25px;
+    }
+
+    .summary__warning-card-title,
+    .summary__warning-card-subtitle,
     .summary__card-text{
-        font-size: 15px;
+        font-size: 25px;
+    }
+    .summary__warning-card-title{
+        font-size: 30px;
+    }
+
+    .summary__container-btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px){
+    .summary__card-text{
+        font-size: 30px;
+    }
+    .summary{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .summary__subContainer{
+        max-width: 800px;
     }
 }

@@ -70,3 +70,24 @@
         font-size: 50px;
     }
 }
+
+@media (min-width: 768px){
+    .main__card-title{
+        font-size: 25px;
+    }
+    .main__card-description,
+    .main__card-list-item{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .modules{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .modules__subContainer{
+        max-width: 800px;
+    }
+}

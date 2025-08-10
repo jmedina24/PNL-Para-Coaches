@@ -72,3 +72,29 @@
         font-size: 50px;
     }
 }
+
+@media (min-width: 768px){
+    .accordion-body{
+        font-size: 18px;
+    }
+    .inside-chile{
+        font-size: 20px;
+    }
+    .faqs__container-btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px){
+    .faqs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .faqs__subContainer{
+        max-width: 800px;
+    }
+}

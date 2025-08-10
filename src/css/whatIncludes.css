@@ -123,3 +123,66 @@
         font-size: 22px;
     }
 }
+
+@media (min-width: 768px){
+    .whatIncludes__more-Info-title{
+        font-size: 25px;
+    }
+    .whatIncludes__moreInfo-bonusName{
+        font-size: 25px;
+    }
+    .whatIncludes__moreInfo-bonusNumber{
+        font-size: 25px;
+    }
+    .whatIncludes__moreInfo-bonusDescription{
+        font-size: 20px;
+    }
+    .whatIncludes__moreInfo-bonusValue{
+        text-align: right;
+    }
+    .whatIncludes__moreInfo-container-image{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .whatIncludes__moreInfo-image{
+        width: 50%;
+    }
+    .whatIncludes__content-title{
+        font-size: 25px;
+    }
+    .whatIncludes__valued{
+        text-align: right;
+    }
+    .whatIncludes__content-description{
+        font-size: 20px;
+    }
+    .whatIncludes__container-enroll{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .whatIncludes__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .whatIncludes__subContainer{
+        max-width: 800px;
+    }
+    .whatIncludes__title{
+        font-size: 40px;
+    }
+    .whatIncludes__more-Info-title{
+        font-size: 35px;
+    }
+    .whatIncludes__moreInfo-image{
+        width: 30%;
+    }
+}

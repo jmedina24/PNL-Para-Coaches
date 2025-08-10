@@ -38,3 +38,20 @@
         font-size: 44px;
     }
 }
+
+@media (min-width: 768px){
+    .pnlOrigins__text{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .pnlOrigins__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pnlOrigins__subContainer{
+        max-width: 800px;
+    }
+}

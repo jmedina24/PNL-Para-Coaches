@@ -3,8 +3,15 @@
     padding: 50px 30px;
 }
 
+.satisfaction__container-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .satisfaction__image{
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-bottom: 40px;
 }
@@ -25,4 +32,27 @@
 }
 .satisfacition__rating-image{
     width: 40%;
+}
+
+@media (min-width: 768px){
+    .satisfaction__image{
+        width: 40%;
+    }
+    .satisfacition__rating-image{
+        width: 20%;
+    }
+    .satisfaction__text{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .satisfaction{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .satisfaction__subContainer{
+        max-width: 800px;
+    }
 }

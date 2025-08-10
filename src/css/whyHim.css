@@ -32,8 +32,43 @@
     margin-bottom: 35px;
 }
 
+.whyHim__image2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+}
+
 @media (min-width: 375px){
     .whyHim__title{
         font-size: 39px;
+    }
+}
+
+@media (min-width: 768px){
+    .whyHim__image{
+        width: 50%;
+    }
+    .whyHim__image2{
+    width: 80%;
+    }
+    .whyHim__container-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .whyHim__description{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .whyHim{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .whyHim__subContainer{
+        max-width: 800px;
     }
 }

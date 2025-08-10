@@ -53,3 +53,26 @@
         font-size: 16px;
     }
 }
+
+@media (min-width: 768px){
+    .PNLForCoaches__text{
+        font-size: 20px;
+    }
+    .PNLForCoaches__subtitle{
+        font-size: 20px;
+    }
+    .PNLForCoaches__title{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1024px){
+    .PNLForCoaches__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .PNLForCoaches__subContainer{
+        max-width: 800px;
+    }
+}

@@ -83,3 +83,30 @@
         font-size: 40px;
     }
 }
+
+@media (min-width: 768px){
+    .whyPNL__text{
+        font-size: 20px;
+    }
+    .whyPNL__card-title{
+        font-size: 20px;
+    }
+    .whyPNL__card-item{
+        font-size: 20px;
+    }
+    .whyPNL__conclusion{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px){
+    .whyPNL__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .whyPNL__subContainer{
+        max-width: 800px;
+    }
+}

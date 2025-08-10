@@ -53,3 +53,26 @@
         font-size: 35px;
     }
 }
+
+@media (min-width: 768px){
+    .whyEnroll__img{
+        width: 50%;
+    }
+    .whyEnroll__card-text{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .whyEnroll__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .whyEnroll__subContainer{
+        max-width: 800px;
+    }
+    .whyEnroll__img{
+        width: 30%;
+    }
+}
